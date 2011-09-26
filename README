@@ -1,0 +1,36 @@
+/*
+ * Nick Routsong
+ * Routy Development LLC
+ * http://www.getrouty.com
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ *
+ * No Promises and no guarantees. This is some as-is software. But don't worry, just enjoy.
+ *
+ */
+
+How to use:
+
+$('#MainWrapper').measureit();
+
+Available Options:
+
+$('#MainWrapper').measureit({
+  onMeasurementBegin: null,
+	onMeasurementEnd: null,
+	enableHotkey: true,
+	hotkey: 77, //Keyboard letter: m
+	measurementSuffix: 'px',
+	toggleElement: '#measurement-tool',
+	toggleEvent: 'click'
+});
+
+There are two callbacks for you to utilize:
+onMeasurementBegin
+onMeasurementEnd
+
+The measurement tool will be toggled by default by clicking on an element with the 'measurement-tool' id.
+Those settings are configurable by passing in different options, as seen above.
+
+By pressing and holding down CTRL+SHIFT+M this will toggle the measurement tool. The letter is also configurable.
+
+That should be about all you need to know; enjoy!
