@@ -79,7 +79,7 @@
 							'height': Math.abs(total_y_pos)
 						});
 						
-						measureBoxCoord.text('W: '+Math.abs(total_x_pos)+options.measurementSuffix' H: '+Math.abs(total_y_pos)+options.measurementSuffix);
+						measureBoxCoord.text('W: '+Math.abs(total_x_pos)+options.measurementSuffix+' H: '+Math.abs(total_y_pos)+options.measurementSuffix);
 						
 					});
 					
