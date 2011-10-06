@@ -1,6 +1,6 @@
 /*
  * jQuery MeasureIt 1.0
- * Create by Routy Development LLC
+ * Created by Routy Development LLC
  * http://www.getrouty.com
  *
  */
